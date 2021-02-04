@@ -9,6 +9,27 @@ Laravel Mark is a markdown based personal note taking app.
 - Code Block Theme
 - Open Source
 
+## Installation
+
+Clone the repository from ```https://github.com/mithicher/laravel-mark```
+
+```
+git clone git@github.com:mithicher/laravel-mark.git
+```
+
+cd in your project directory 
+
+```
+composer install
+```
+
+Rename ```.env.example``` to ```.env```
+
+```
+php artisan key:generate
+```
+
+
 ## Packages Used
 
 - [Laravel Breeze](https://laravel.com/docs/8.x/starter-kits#laravel-breeze)
